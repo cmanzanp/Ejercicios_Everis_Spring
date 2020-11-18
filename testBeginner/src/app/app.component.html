@@ -1,0 +1,6 @@
+<div class="container">
+    <h1>Busqueda <small>{{texto}}</small></h1>
+    <app-search
+    [textBtn]="labelButton"
+    (sendQuery)="setQuery($event)"></app-search>
+</div>
